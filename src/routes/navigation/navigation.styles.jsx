@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 export const NavigationContainer = styled.div`
   height: 70px;
@@ -7,6 +8,7 @@ export const NavigationContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  font-family: ${(props) => props.theme.textStyles.h1.fontFamily};
 `;
 
 export const LogoContainer = styled(Link)`
