@@ -42,7 +42,8 @@ const Navigation = () => {
               SIGN OUT
             </span>
             ) : (
-              <a href="http://app.localhost:3000/" >Sign In</a>
+              // <a href="http://app.localhost:3000/" >Sign In</a>
+              <a href="https://app.fabulous-unicorn-644adf.netlify.app/" >Sign In</a>
 
             )}
           </div>
