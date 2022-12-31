@@ -1,3 +1,5 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 const colorPalette = {
   purple: "#341F6F",
   blue: "#6B7CFF",
