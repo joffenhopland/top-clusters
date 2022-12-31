@@ -4,8 +4,16 @@ import { Outlet, Link } from 'react-router-dom';
 import { UserContext } from '../../context/user.context';
 
 import { signOutUser } from '../../utils/firebase.utils';
+import Button from '../../components/button/button.component'
 
-import './navigation.styles.scss';
+import {
+  NavigationContainer,
+  NavLinks,
+  NavLink,
+  LogoContainer,
+  LogInLink,
+  LogOutLink
+} from './navigation.styles';
 
 // const dashboardLink = () => {
 //   const host = window.location.hostname;
@@ -22,32 +30,44 @@ import './navigation.styles.scss';
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
 
+  // TODO: Add anchor links
 
     return (
       <Fragment>
-        <div className='navigation'>
-          <Link className='logo-container' to='/'>
+      <NavigationContainer>
+      <LogoContainer to='/'>
             {/* <CrwnLogo className='logo' /> */}
             Logo Top Clusters
-          </Link>
-          <div className='nav-links-container'>
-            <Link className='nav-link' to='/'>
+            </LogoContainer>
+            <NavLinks>
+
+            <NavLink to='/'>
               Home
-            </Link>
-            <Link className='nav-link' to='/'>
+              </NavLink>
+              <NavLink to='/'>
               Product
-            </Link>
+              </NavLink>
+              <NavLink to='/'>
+              How It Works
+              </NavLink>
+              <NavLink to='/'>
+              Pricing
+              </NavLink>
+              <NavLink to='/'>
+              FAQ
+              </NavLink>
             {currentUser ? (
-              <span className='nav-link' onClick={signOutUser}>
+              <LogOutLink onClick={signOutUser}>
               SIGN OUT
-            </span>
+            </LogOutLink>
             ) : (
               // <a href="http://app.localhost:3000/" >Sign In</a>
-              <a href="https://app.topclusters.io/" >Sign In</a>
+              <LogInLink href="https://app.topclusters.io/" >Log In</LogInLink>
 
             )}
-          </div>
-        </div>
+            <Button>Sign Up</Button>
+        </NavLinks>
+          </NavigationContainer>
         <Outlet />
       </Fragment>
     );
