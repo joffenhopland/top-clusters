@@ -1,6 +1,5 @@
 
 import styled from 'styled-components';
-// import {trending_up} from '../../assets/icons/trending_up_FILL0_wght400_GRAD0_opsz48.svg';
 
 
 export const ValueStackContainer = styled.div`
@@ -14,13 +13,14 @@ justify-content: center;
 // flex-direction: column;
 align-items: center;
 // margin-top: 3rem;
+background-color: ${(props) => props.theme.colors.lightViolet};
 `;
 
 export const ValueStackCardContent = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-// margin-top: 5rem;
+margin: 2rem 0;
 `;
 
 export const ValueStackCard = styled.div`
@@ -30,9 +30,9 @@ align-items: center;
 text-align: center;
 width: 30rem;
 // height: 30rem;
-background-color: #fff;
-box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.19);
-border-radius: 20px;
+// background-color: #fff;
+// box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.19);
+// border-radius: 20px;
 `;
 
 export const WorksIconContainer = styled.div`

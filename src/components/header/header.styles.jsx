@@ -5,22 +5,23 @@ import DashboardImg from '../../assets/images/dashboard-image-temp.svg';
 export const HeaderContainer = styled.div`
 position: relative;
 overflow: hidden;
+height: 140vh;
+
 `;
 
 export const HeaderBackground = styled.div`
 position: relative;
-top: 250px;
-left: 300px;
+top: 280px;
+left: 320px;
 width: 624px;
-height: 196px;
-background: rgb(215,152,225);
+height: 600px;
+// background: rgb(215,152,225);
 // background: radial-gradient(circle at 35% 50%, rgba(215,152,225,0.5) 1%, rgba(255,155,245,0.7) 5%, rgba(174,211,255,0.7) 55%, rgba(201,212,239,0.5) 59%, rgba(202,207,250,0.3) 67%);
 background: radial-gradient(circle at -49.5% -250%, rgba(215, 152, 225, 1) 17.55%, rgba(255, 155, 245, 1) 27.56%, rgba(174, 211, 255, 1) 49.89%, rgba(201, 212, 239, 1) 56.53%, rgba(202, 207, 250, 1) 65.69%);
 filter: blur(100px);
-background-position: left;
+// background-position: left;
 // background-repeat: no-repeat;
 // background-size: cover;
-height: 140vh;
 `;
 
 export const HeaderContent = styled.section`
