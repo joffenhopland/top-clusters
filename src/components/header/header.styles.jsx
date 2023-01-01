@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
-import DashboardImg from '../../assets/dashboard-image-temp.svg';
+import DashboardImg from '../../assets/images/dashboard-image-temp.svg';
 
 
 export const HeaderContainer = styled.div`
 position: relative;
-// height: 74vh;
-// overflow: hidden;
+overflow: hidden;
 `;
 
 export const HeaderBackground = styled.div`

@@ -1,11 +1,10 @@
 import Button, {BUTTON_TYPE_CLASSES} from "../button/button.component"
-import DashboardImg from '../../assets/dashboard-image-temp.svg';
+import DashboardImg from '../../assets/images/dashboard-image-temp.svg';
 
 import {HeaderContainer, HeaderBackground, HeaderContent, HeaderContentText, HeaderTitle, HeaderTitleText, HeaderTitleTextGradient, HeaderSubTitle, HeaderCreditCardText, HeaderDashboardImg} from "./header.styles"
 
 const Header = () => {
     return (
-        <div>
         <HeaderContainer>
         <HeaderBackground>
         </HeaderBackground>
@@ -40,7 +39,6 @@ const Header = () => {
                 <HeaderDashboardImg src={DashboardImg}/>
             </HeaderContent>
             </HeaderContainer>
-        </div>
     )
 }
 

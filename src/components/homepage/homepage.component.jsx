@@ -1,12 +1,12 @@
 import Header from "../header/header.component"
-import ValueStackSection from "../value-stack-section/value-stack-section.component"
+import ValueStack from "../value-stack/value-stack.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
     return (
         <HomepageContainer>
             <Header/>
-            <ValueStackSection/>
+            <ValueStack/>
             {/* <ProblemSection/>
             <ValuePropSection/>
             <GuideSection/>
