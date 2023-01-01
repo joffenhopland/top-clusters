@@ -1,5 +1,7 @@
-import {ValueStackContainer, ValueStackContent, ValueStackCardContent, ValueStackCard, WorksIconContainer, WorksIcon1, WorksCardTitle}from "./value-stack.styles"
+import {ValueStackContainer, ValueStackContent, ValueStackCardContent, ValueStackCard, ValueStackIconContainer, ValueStackCardTitle}from "./value-stack.styles"
 import { ReactComponent as TrendingUpIcon } from '../../assets/icons/trending_up_FILL0_wght400_GRAD0_opsz48.svg';
+import { ReactComponent as VisibilityIcon } from '../../assets/icons/visibility_FILL0_wght400_GRAD0_opsz48.svg';
+import { ReactComponent as ScheduleIcon } from '../../assets/icons/schedule_FILL0_wght400_GRAD0_opsz48.svg';
 
 const ValueStack = () => {
     return (
@@ -7,28 +9,28 @@ const ValueStack = () => {
             <ValueStackContent>
                 <ValueStackCardContent>
                     <ValueStackCard>
-                        <WorksIconContainer>
+                        <ValueStackIconContainer>
                             <TrendingUpIcon/>
-                        </WorksIconContainer>
-                            <WorksCardTitle>
+                        </ValueStackIconContainer>
+                            <ValueStackCardTitle>
                                 Improve your rank
-                            </WorksCardTitle>
+                            </ValueStackCardTitle>
                     </ValueStackCard>
                     <ValueStackCard>
-                        <WorksIconContainer>
-                            <TrendingUpIcon/>
-                        </WorksIconContainer>
-                            <WorksCardTitle>
+                        <ValueStackIconContainer>
+                            <VisibilityIcon/>
+                        </ValueStackIconContainer>
+                            <ValueStackCardTitle>
                                 Increase your visibility
-                            </WorksCardTitle>
+                            </ValueStackCardTitle>
                     </ValueStackCard>
                     <ValueStackCard>
-                        <WorksIconContainer>
-                            <TrendingUpIcon/>
-                        </WorksIconContainer>
-                            <WorksCardTitle>
+                        <ValueStackIconContainer>
+                            <ScheduleIcon/>
+                        </ValueStackIconContainer>
+                            <ValueStackCardTitle>
                                 Save time
-                            </WorksCardTitle>
+                            </ValueStackCardTitle>
                     </ValueStackCard>
                 </ValueStackCardContent>
             </ValueStackContent>

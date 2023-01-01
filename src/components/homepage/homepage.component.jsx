@@ -1,5 +1,6 @@
 import Header from "../header/header.component"
 import ValueStack from "../value-stack/value-stack.component"
+import Problem from "../problem/problem.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -7,8 +8,8 @@ const Homepage = () => {
         <HomepageContainer>
             <Header/>
             <ValueStack/>
-            {/* <ProblemSection/>
-            <ValuePropSection/>
+            <Problem/>
+            {/* <ValuePropSection/>
             <GuideSection/>
             <PlanSection/>
             <PricingSection/>
