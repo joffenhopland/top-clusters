@@ -4,7 +4,7 @@ import { Outlet, Link } from 'react-router-dom';
 import { UserContext } from '../../context/user.context';
 
 import { signOutUser } from '../../utils/firebase.utils';
-import Button from '../../components/button/button.component'
+import Button, { BUTTON_TYPE_CLASSES } from '../../components/button/button.component'
 
 import {
   NavigationContainer,
@@ -69,7 +69,7 @@ const Navigation = () => {
               <LogInLink href="https://app.topclusters.io/" >Log In</LogInLink>
 
             )}
-            <Button>Sign Up</Button>
+            <Button buttonType={BUTTON_TYPE_CLASSES.base}>Sign Up</Button>
         </NavLinks>
           </NavigationContainer>
         <Outlet />

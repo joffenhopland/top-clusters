@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 export const NavigationContainer = styled.div`
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
-  font-family: ${(props) => props.theme.textStyles.paragraph.fontFamily};
-  font-size: ${(props) => props.theme.textStyles.paragraph.fontSize};
+  margin-bottom: 24px;
+  padding: 0px 40px 0px 40px;
+  font-family: ${(props) => props.theme.textStyles.h6.fontFamily};
+  font-size: ${(props) => props.theme.textStyles.h6.fontSize};
+  font-weight: ${(props) => props.theme.textStyles.h6.fontWeight};
 
 `;
 
@@ -42,7 +43,7 @@ export const Divider = styled(Link)`
 `;
 
 export const LogInLink = styled.a`
-  padding: 10px 15px;
+  padding: 10px 30px 10px 15px;
   cursor: pointer;
   color: ${(props) => props.theme.colors.primary};
 

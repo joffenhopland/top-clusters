@@ -1,10 +1,11 @@
-import HeaderSection from "../header-section/header-section.component"
+import Header from "../header/header.component"
 import ValueStackSection from "../value-stack-section/value-stack-section.component"
+import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
     return (
-        <div className="homepage-container">
-            <HeaderSection/>
+        <HomepageContainer>
+            <Header/>
             <ValueStackSection/>
             {/* <ProblemSection/>
             <ValuePropSection/>
@@ -14,7 +15,9 @@ const Homepage = () => {
             <SuccessSection/>
             <FAQSection/>
             <CTASection/> */}
-        </div>
+        </HomepageContainer>
+            
+            
     )
 }
 
