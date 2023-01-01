@@ -1,15 +1,29 @@
 import Button, {BUTTON_TYPE_CLASSES} from "../button/button.component"
-import {HeaderContainer, HeaderContent, HeaderContentText, HeaderTitle, HeaderTitleText, HeaderSubTitle, HeaderCreditCardText} from "./header.styles"
+import DashboardImg from '../../assets/dashboard-image-temp.svg';
+
+import {HeaderContainer, HeaderBackground, HeaderContent, HeaderContentText, HeaderTitle, HeaderTitleText, HeaderTitleTextGradient, HeaderSubTitle, HeaderCreditCardText, HeaderDashboardImg} from "./header.styles"
 
 const Header = () => {
     return (
         <div>
         <HeaderContainer>
+        <HeaderBackground>
+        </HeaderBackground>
             <HeaderContent>
                 <HeaderContentText>
                     <HeaderTitle>
                         <HeaderTitleText>
-                        Boost your google ranking with keyword clustering
+                        Boost your
+                        <span> </span>
+                        <HeaderTitleTextGradient>
+                        google ranking
+                        </HeaderTitleTextGradient>
+                        <span> </span>
+                        with
+                        <span> </span>
+                        <HeaderTitleTextGradient>
+                        keyword clustering
+                        </HeaderTitleTextGradient>
                         </HeaderTitleText>
                         <HeaderSubTitle>
                         We group keywords with similar search intent into topical clusters to help you improve your rank, increase your visibility with more traffic, and save time.
@@ -23,8 +37,9 @@ const Header = () => {
                         </HeaderCreditCardText>
                     </HeaderTitle>
                 </HeaderContentText>
+                <HeaderDashboardImg src={DashboardImg}/>
             </HeaderContent>
-        </HeaderContainer>
+            </HeaderContainer>
         </div>
     )
 }
