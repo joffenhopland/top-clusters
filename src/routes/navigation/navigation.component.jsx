@@ -12,7 +12,8 @@ import {
   NavLink,
   LogoContainer,
   LogInLink,
-  LogOutLink
+  LogOutLink,
+  Divider
 } from './navigation.styles';
 
 // const dashboardLink = () => {
@@ -56,6 +57,9 @@ const Navigation = () => {
               <NavLink to='/'>
               FAQ
               </NavLink>
+              <Divider>
+              |
+              </Divider>
             {currentUser ? (
               <LogOutLink onClick={signOutUser}>
               SIGN OUT

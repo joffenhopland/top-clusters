@@ -8,7 +8,9 @@ export const NavigationContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  font-family: ${(props) => props.theme.textStyles.h1.fontFamily};
+  font-family: ${(props) => props.theme.textStyles.paragraph.fontFamily};
+  font-size: ${(props) => props.theme.textStyles.paragraph.fontSize};
+
 `;
 
 export const LogoContainer = styled(Link)`
@@ -23,19 +25,32 @@ export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
 `;
 
 export const NavLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
+  color: ${(props) => props.theme.colors.primary};
+
+`;
+
+export const Divider = styled(Link)`
+  padding: 10px 15px;
+  color: ${(props) => props.theme.colors.primary};
+
 `;
 
 export const LogInLink = styled.a`
   padding: 10px 15px;
   cursor: pointer;
+  color: ${(props) => props.theme.colors.primary};
+
 `;
 
 export const LogOutLink = styled.span`
   padding: 10px 15px;
   cursor: pointer;
+  color: ${(props) => props.theme.colors.primary};
+
 `;
