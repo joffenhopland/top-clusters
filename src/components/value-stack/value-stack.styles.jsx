@@ -31,8 +31,9 @@ export const ValueStackIconContainer = styled.div`
 padding: 25px;
 `;
 
-export const ValueStackCardTitle = styled.div`
+export const ValueStackCardTitle = styled.h3`
 font-size: ${(props) => props.theme.textStyles.h3.fontSize};
 font-weight: ${(props) => props.theme.textStyles.h3.fontWeight};
+color: ${(props) => props.theme.colors.primary};
 padding-bottom: 2.5rem;
 `;

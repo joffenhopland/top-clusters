@@ -81,6 +81,12 @@ export const theme = {
       fontWeight: "400",
       lineHeight: "150%",
     },
+    paragraphLargeBold: {
+      fontFamily: "Roboto",
+      fontSize: "20px",
+      fontWeight: "700",
+      lineHeight: "150%",
+    },
     paragraphSmall: {
       fontFamily: "Roboto",
       fontSize: "12px",
