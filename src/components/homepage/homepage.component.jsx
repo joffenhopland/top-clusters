@@ -2,6 +2,7 @@ import Header from "../header/header.component"
 import ValueStack from "../value-stack/value-stack.component"
 import Problem from "../problem/problem.component"
 import ValueProp from "../value-prop/value-prop.component"
+import Guide from "../guide/guide.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -11,8 +12,8 @@ const Homepage = () => {
             <ValueStack/>
             <Problem/>
             <ValueProp/>
-            {/* <GuideSection/>
-            <PlanSection/>
+            <Guide/>
+            {/* <PlanSection/>
             <PricingSection/>
             <SuccessSection/>
             <FAQSection/>
