@@ -3,6 +3,7 @@ import ValueStack from "../value-stack/value-stack.component"
 import Problem from "../problem/problem.component"
 import ValueProp from "../value-prop/value-prop.component"
 import Guide from "../guide/guide.component"
+import How from "../how/how.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -13,8 +14,8 @@ const Homepage = () => {
             <Problem/>
             <ValueProp/>
             <Guide/>
-            {/* <PlanSection/>
-            <PricingSection/>
+            <How/>
+            {/* <PricingSection/>
             <SuccessSection/>
             <FAQSection/>
             <CTASection/> */}

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const GuideContainer = styled.div`
-// position: relative;
 `;
 
 export const GuideContent = styled.section`
