@@ -1,4 +1,5 @@
-import { PriceContainer, PriceBackground, PriceContent, PriceTitle, PriceItemsContainer, PriceSubtitle, PriceItem, PriceItemContent, PriceItemTitle } from "./price.styles"
+import { PriceContainer, PriceBackground, PriceContent, PriceTitle, PriceSubtitle } from "./price.styles"
+import PricingPlans from "../pricing-plans/pricing-plans.component"
 
 
 const Price = () => {
@@ -9,27 +10,7 @@ const Price = () => {
             <PriceContent>
                 <PriceTitle>Pricing plans that suit you</PriceTitle>
                 <PriceSubtitle>We offer simple and transparent “pay as you go” Pricing. No monthly subscriptions necessary. Only pay for what you need, when you need it.</PriceSubtitle>
-                <PriceItemsContainer>
-                    <PriceItem>
-                        <PriceItemContent>
-                            <PriceItemTitle>
-                            Price
-                            </PriceItemTitle>
-                            <PriceItemTitle>
-                            Price
-                            </PriceItemTitle>
-                        </PriceItemContent>             
-                    </PriceItem>
-                    <PriceItem>
-                    Price
-                    </PriceItem>
-                    <PriceItem>
-                    Price
-                    </PriceItem>
-                    <PriceItem>
-                    Price
-                    </PriceItem>
-                </PriceItemsContainer>
+                <PricingPlans/>
             </PriceContent>
         </PriceContainer>
     )

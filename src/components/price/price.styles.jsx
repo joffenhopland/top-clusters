@@ -6,7 +6,7 @@ justify-content: center;
 // padding: 56px 0 56px 0;
 position: relative;
 overflow: hidden;
-height: 110vh;
+height: 100vh;
 `;
 
 export const PriceBackground = styled.div`
@@ -37,15 +37,16 @@ width: 60%;
 font-size: ${(props) => props.theme.textStyles.h2.fontSize};
 font-weight: ${(props) => props.theme.textStyles.h2.fontWeight};
 color: ${(props) => props.theme.colors.primary};
-padding: 12px 0 38px 0;
+padding: 12px 0 0 0;
 `;
 
 export const PriceSubtitle = styled.p`
-width: 110%;
+width: 50%;
 font-size: ${(props) => props.theme.textStyles.paragraphLarge.fontSize};
 font-weight: ${(props) => props.theme.textStyles.paragraphLarge.fontWeight};
 line-height: ${(props) => props.theme.textStyles.paragraphLarge.lineHeight};
 color: ${(props) => props.theme.colors.primary};
+padding: 0 0 56px 0;
 `;
 
 export const PriceItemsContainer = styled.div`
@@ -57,20 +58,69 @@ align-items: center;
 
 export const PriceItem = styled.div`
 width: 300px;
-height: 500px;
-display: flex;
-justify-content: center;
-align-items: center;
+height: auto;
+// display: flex;
+// justify-content: center;
+// align-items: center;
 background: ${(props) => props.theme.colors.background};
 border-radius: 24px;
 `;
 
 export const PriceItemContent = styled.div`
-display: flex;
-justify-content: column;
-align-items: center;
+padding-bottom: 24px;
+
 `;
 
-export const PriceItemTitle = styled.div`
+export const PriceItemTitle = styled.h4`
+font-size: ${(props) => props.theme.textStyles.h4.fontSize};
+font-weight: ${(props) => props.theme.textStyles.h4.fontWeight};
+line-height: ${(props) => props.theme.textStyles.h4.lineHeight};
+background: linear-gradient(53.94deg, #A737FF 15.02%, #6B7CFF 82.83%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 12px 0;
+`;
+
+export const PriceItemPrice = styled.h3`
+font-size: ${(props) => props.theme.textStyles.h3.fontSize};
+font-weight: ${(props) => props.theme.textStyles.h3.fontWeight};
+line-height: ${(props) => props.theme.textStyles.h3.lineHeight};
+color: ${(props) => props.theme.colors.primary};
+margin: 12px 0;
+`;
+
+export const PriceItemDivider = styled.div`
+// width: 100%;
+border-top: 3px solid #bbb;
+`;
+
+export const PriceDetailsContainer = styled.div`
+text-align: start;
+padding: 24px 32px;
+`;
+
+export const PriceDetails = styled.div`
+padding: 12px 0;
+`;
+
+
+export const PriceDetailsText = styled.span`
+font-size: ${(props) => props.theme.textStyles.paragraph.fontSize};
+font-weight: ${(props) => props.theme.textStyles.paragraphLargeBold.fontWeight};
+line-height: ${(props) => props.theme.textStyles.paragraphLargeBold.lineHeight};
+color: ${(props) => props.theme.colors.primary};
+vertical-align: middle;
+`;
+
+export const PriceIconContainer = styled.div`
+display: inline-block;
+vertical-align: middle;
+margin-top: 6px;
+`;
+
+export const PriceCreditCardText = styled.p`
+font-size: ${(props) => props.theme.textStyles.paragraphSmall.fontSize};
+font-weight: ${(props) => props.theme.textStyles.paragraphSmall.fontWeight};
+color: ${(props) => props.theme.colors.black};
 
 `;
