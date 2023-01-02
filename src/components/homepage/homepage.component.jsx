@@ -6,6 +6,7 @@ import Guide from "../guide/guide.component"
 import How from "../how/how.component"
 import Price from "../price/price.component"
 import Success from "../success/success.component"
+import Faq from "../faq/faq.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -19,8 +20,8 @@ const Homepage = () => {
             <How/>
             <Price/>
             <Success/>
-            {/* <FAQSection/>
-            <CTASection/> */}
+            <Faq/>
+            {/* <CTASection/> */}
         </HomepageContainer>
             
             
