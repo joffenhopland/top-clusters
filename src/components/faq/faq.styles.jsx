@@ -36,7 +36,7 @@ padding: 0 0 56px 0;
 `;
 
 export const FaqItemsContainer = styled.div`
-width: 50%;
+width: 90%;
 display: flex;
 justify-content: center;
 align-items: center;
