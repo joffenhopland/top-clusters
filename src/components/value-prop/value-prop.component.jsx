@@ -1,10 +1,12 @@
-import {ValuePropContainer, ValuePropBackground, ValuePropContent, ValuePropTitle, ValuePropBenefitsContent, ValuePropBenefit1, ValuePropBenefit2, ValuePropBenefit3, ValuePropBenefit4, ValuePropBenefit5, ValuePropBenefit6, ValuePropBenefitTitle, ValuePropBenefitText, ValuePropIconContainer} from "./value-prop.styles"
+import {ValuePropContainer, ValuePropBackground, ValuePropContent, ValuePropTitle, ValuePropBenefitsContent, ValuePropBenefit1, ValuePropBenefit2, ValuePropBenefit3, ValuePropBenefit4, ValuePropBenefit5, ValuePropBenefit6, ValuePropBenefitTitle, ValuePropBenefitText, ValuePropIconContainer, ValuePropCreditCardText} from "./value-prop.styles"
 import { ReactComponent as TrendingUpIcon } from '../../assets/icons/trending_up_FILL0_wght400_GRAD0_opsz48.svg';
 import { ReactComponent as HubIcon } from '../../assets/icons/hub_FILL0_wght400_GRAD0_opsz48.svg';
 import { ReactComponent as OrganicTrafficIcon } from '../../assets/icons/organic_traffic_icon.svg';
 import { ReactComponent as AuthorityIcon } from '../../assets/icons/authority_icon.svg';
 import { ReactComponent as ContentIcon } from '../../assets/icons/content_icon.svg';
 import { ReactComponent as SearchIcon } from '../../assets/icons/search_icon.svg';
+import Button, {BUTTON_TYPE_CLASSES} from "../button/button.component"
+
 
 
 const ValueProp = () => {
@@ -55,6 +57,13 @@ const ValueProp = () => {
                     
                     </ValuePropBenefit6>
                 </ValuePropBenefitsContent>
+                <Button buttonType={BUTTON_TYPE_CLASSES.base} style={{  "margin": "0 auto", "text-align": "start"
+}}>
+                            Get 150 Free Credits
+                        </Button>
+                        <ValuePropCreditCardText>
+                        No credit card required.
+                        </ValuePropCreditCardText>
             </ValuePropContent>
 
         </ValuePropContainer>

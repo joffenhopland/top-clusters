@@ -6,7 +6,7 @@ justify-content: center;
 // padding: 56px 0 56px 0;
 position: relative;
 overflow: hidden;
-height: 100vh;
+height: 120vh;
 `;
 
 export const ValuePropBackground = styled.div`
@@ -101,4 +101,10 @@ color: ${(props) => props.theme.colors.primary};
 `;
 
 export const ValuePropIconContainer = styled.div`
+`;
+
+export const ValuePropCreditCardText = styled.p`
+font-size: ${(props) => props.theme.textStyles.paragraphSmall.fontSize};
+font-weight: ${(props) => props.theme.textStyles.paragraphSmall.fontWeight};
+color: ${(props) => props.theme.colors.black};
 `;
