@@ -35,7 +35,6 @@ justify-content: center;
 align-items: center;
 text-align: center;
 padding: 48px 0 0 0;
-
 `;
 
 export const ValuePropTitle = styled.h2`
@@ -62,7 +61,6 @@ text-align: start;
 export const ValuePropBenefit2 = styled.div`
 grid-area: 1 / 2 / 2 / 3;
 text-align: start;
-
 `;
 export const ValuePropBenefit3 = styled.div`
 grid-area: 1 / 3 / 2 / 4;
@@ -82,7 +80,6 @@ text-align: start;
 export const ValuePropBenefit6 = styled.div`
 grid-area: 2 / 3 / 3 / 4;
 text-align: start;
-
 `;
 
 export const ValuePropBenefitTitle = styled.h4`
