@@ -5,6 +5,7 @@ import ValueProp from "../value-prop/value-prop.component"
 import Guide from "../guide/guide.component"
 import How from "../how/how.component"
 import Price from "../price/price.component"
+import Success from "../success/success.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -17,8 +18,8 @@ const Homepage = () => {
             <Guide/>
             <How/>
             <Price/>
-            {/* <SuccessSection/>
-            <FAQSection/>
+            <Success/>
+            {/* <FAQSection/>
             <CTASection/> */}
         </HomepageContainer>
             
