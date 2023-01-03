@@ -8,6 +8,7 @@ import Price from "../price/price.component"
 import Success from "../success/success.component"
 import Faq from "../faq/faq.component"
 import Cta from "../cta/cta.component"
+import Footer from "../footer/footer.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -23,6 +24,7 @@ const Homepage = () => {
             <Success/>
             <Faq/>
             <Cta/>
+            <Footer/>
         </HomepageContainer>
             
             
