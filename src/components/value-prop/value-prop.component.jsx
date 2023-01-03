@@ -57,8 +57,7 @@ const ValueProp = () => {
                     
                     </ValuePropBenefit6>
                 </ValuePropBenefitsContent>
-                <Button buttonType={BUTTON_TYPE_CLASSES.base} style={{  "margin": "0 auto", "text-align": "start"
-}}>
+                <Button buttonType={BUTTON_TYPE_CLASSES.base} style={{  "margin": "0 auto", "text-align": "start"}}>
                             Get 150 Free Credits
                         </Button>
                         <ValuePropCreditCardText>

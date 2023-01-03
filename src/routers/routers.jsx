@@ -11,7 +11,7 @@ const HomeRouter = () => {
         <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
           <Route path="auth" element={<Authentication />} />
-          <Route path="privacy-policy" element={<PrivacyPolicy />} />
+          {/* <Route path="privacy-policy" element={<PrivacyPolicy />} /> */}
         </Route>
       </Routes>
     );

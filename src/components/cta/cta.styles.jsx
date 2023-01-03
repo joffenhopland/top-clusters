@@ -39,7 +39,7 @@ font-family: ${(props) => props.theme.textStyles.h1.fontFamily};
 color: ${(props) => props.theme.colors.primary};
 `;
 
-export const CtaTitle = styled.h1`
+export const CtaTitle = styled.div`
 font-size: ${(props) => props.theme.textStyles.h1.fontSize};
 font-weight: ${(props) => props.theme.textStyles.h1.fontWeight};
 margin-bottom: 12px;
