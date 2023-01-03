@@ -7,6 +7,7 @@ import How from "../how/how.component"
 import Price from "../price/price.component"
 import Success from "../success/success.component"
 import Faq from "../faq/faq.component"
+import Cta from "../cta/cta.component"
 import {HomepageContainer} from "./homepage.styles"
 
 const Homepage = () => {
@@ -21,7 +22,7 @@ const Homepage = () => {
             <Price/>
             <Success/>
             <Faq/>
-            {/* <CTASection/> */}
+            <Cta/>
         </HomepageContainer>
             
             
