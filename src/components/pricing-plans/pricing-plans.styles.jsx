@@ -15,6 +15,8 @@ height: auto;
 // align-items: center;
 background: ${(props) => props.theme.colors.background};
 border-radius: 24px;
+box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+
 `;
 
 export const PricingPlansItemContent = styled.div`

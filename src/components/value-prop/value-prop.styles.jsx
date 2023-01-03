@@ -52,6 +52,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 56px;
 grid-row-gap: 36px;
+padding-bottom: 36px;
 `;
 
 export const ValuePropBenefit1 = styled.div`

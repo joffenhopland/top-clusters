@@ -24,6 +24,7 @@ font-size: ${(props) => props.theme.textStyles.h2.fontSize};
 font-weight: ${(props) => props.theme.textStyles.h2.fontWeight};
 color: ${(props) => props.theme.colors.primary};
 padding: 12px 0 0 0;
+margin-bottom: 12px;
 `;
 
 export const FaqSubtitle = styled.p`
@@ -32,7 +33,7 @@ font-size: ${(props) => props.theme.textStyles.paragraphLarge.fontSize};
 font-weight: ${(props) => props.theme.textStyles.paragraphLarge.fontWeight};
 line-height: ${(props) => props.theme.textStyles.paragraphLarge.lineHeight};
 color: ${(props) => props.theme.colors.primary};
-padding: 0 0 56px 0;
+padding-bottom: 12px;
 `;
 
 export const FaqItemsContainer = styled.div`
@@ -40,4 +41,5 @@ width: 90%;
 display: flex;
 justify-content: center;
 align-items: center;
+padding-bottom: 56px;
 `;

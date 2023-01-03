@@ -5,7 +5,7 @@ const Faq = () => {
     return(
         <FaqContainer>
             <FaqContent>
-                <FaqTitle>Frequestly Asked Questions</FaqTitle>
+                <FaqTitle>Frequently Asked Questions</FaqTitle>
                 <FaqSubtitle>We have put together some commonly asked questions.</FaqSubtitle>
                 <FaqItemsContainer>
                     <FaqAccordion/>
