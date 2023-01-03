@@ -3,6 +3,7 @@ import Home from "../routes/home/home.component";
 import Navigation from "../routes/navigation/navigation.component";
 // import SignIn from "../routes/sign-in/sign-in.component";
 import Authentication from "../routes/authentication/authentication.component";
+import PrivacyPolicy from "../routes/privacy-policy/privacy-policy.component";
 
 const HomeRouter = () => {
     return (
@@ -10,6 +11,7 @@ const HomeRouter = () => {
         <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
           <Route path="auth" element={<Authentication />} />
+          <Route path="privacy-policy" element={<PrivacyPolicy />} />
         </Route>
       </Routes>
     );

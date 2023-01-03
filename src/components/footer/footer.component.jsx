@@ -1,8 +1,10 @@
-import { FooterContainer, LogoContainer, CopyrightText, PrivacyPolicyText, FooterContent } from './footer.styles';
+import { FooterContainer, LogoContainer, CopyrightText, PrivacyPolicyLink, FooterContent } from './footer.styles';
+import { Fragment } from 'react';
 
 
 const Footer = () => {
     return(
+        <Fragment>
             <FooterContainer>
                 <FooterContent>
                 <LogoContainer>
@@ -11,11 +13,12 @@ const Footer = () => {
                 <CopyrightText>
                 Copyright 2023 Top Clusters. All rights reserved.
                 </CopyrightText>
-                <PrivacyPolicyText>
+                <PrivacyPolicyLink to='/privacy-policy'>
                     Privacy Policy
-                </PrivacyPolicyText>
+                </PrivacyPolicyLink>
                 </FooterContent>
             </FooterContainer>
+        </Fragment>    
     )
 }
 

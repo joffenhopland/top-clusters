@@ -32,9 +32,10 @@ font-weight: ${(props) => props.theme.textStyles.paragraphSmall.fontWeight};
 color: ${(props) => props.theme.colors.background};
 `;
 
-export const PrivacyPolicyText = styled(Link)`
+export const PrivacyPolicyLink = styled(Link)`
 font-size: ${(props) => props.theme.textStyles.paragraphSmall.fontSize};
 font-weight: ${(props) => props.theme.textStyles.paragraphSmall.fontWeight};
 color: ${(props) => props.theme.colors.background};
+cursor: pointer;
 padding: 6px;
 `;
