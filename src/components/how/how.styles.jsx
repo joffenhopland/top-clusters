@@ -6,7 +6,7 @@ justify-content: center;
 // padding: 56px 0 56px 0;
 position: relative;
 overflow: hidden;
-height: 110vh;
+height: 120vh;
 `;
 
 export const HowBackground = styled.div`

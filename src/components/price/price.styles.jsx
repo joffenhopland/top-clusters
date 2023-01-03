@@ -6,7 +6,7 @@ justify-content: center;
 // padding: 56px 0 56px 0;
 position: relative;
 overflow: hidden;
-height: 100vh;
+height: 120vh;
 `;
 
 export const PriceBackground = styled.div`
@@ -30,6 +30,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+padding-bottom: 56px;
+
 `;
 
 export const PriceTitle = styled.h2`
