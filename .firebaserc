@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "top-clusters-db"
-  }
+  },
+  "targets": {
+    "top-clusters-db": {
+      "hosting": {
+        "main": [
+          "top-clusters-db"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
