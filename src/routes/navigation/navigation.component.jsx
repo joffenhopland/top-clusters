@@ -6,6 +6,8 @@ import { UserContext } from '../../context/user.context';
 import { signOutUser } from '../../utils/firebase.utils';
 import Button, { BUTTON_TYPE_CLASSES } from '../../components/button/button.component'
 
+import {ReactComponent as Logo} from '../../assets/logos/top-clusters-logo-text-lower-v02.svg'
+
 import {
   NavigationContainer,
   NavLinks,
@@ -37,8 +39,8 @@ const Navigation = () => {
       <Fragment>
       <NavigationContainer>
       <LogoContainer to='/'>
-            {/* <CrwnLogo className='logo' /> */}
-            Logo Top Clusters
+            <Logo className='logo'  height={100} width={275}/>
+            {/* Logo Top Clusters */}
             </LogoContainer>
             <NavLinks>
 
